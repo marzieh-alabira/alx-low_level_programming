@@ -1,5 +1,5 @@
 section .data
-	msg db 'Hello, Holberton', 0Ah	; it the string to print
+	msg db 'Hello, Holberton', 0Ah, 0	; it the string to print
 	fmt db '%s', 0Ah		; it the format string for printf
 
 section .text
